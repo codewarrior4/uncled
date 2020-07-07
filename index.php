@@ -1,3 +1,4 @@
+<?php include 'connect.php' ?>
 <!DOCTYPE html>
 <html dir="ltr" lang="en">
 
@@ -11,10 +12,10 @@
 
 
     <!-- Title -->
-    <title> Uncle D real Estate Properties</title>
+    <title> Uncle D Properties</title>
 
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="img/favicon.png">
+    <link rel="icon" type="image/png" href="images/logo.png">
 
 
 
@@ -53,10 +54,10 @@
                 <div class="overlay"></div>
                 <div class="text">
                     <div class="this-item">
-                        <h2>Welcome To Our Home Page</h2>
+                        <h2>WELCOME TO UNCLE-D PROPERTIES LTD </h2>
                     </div>
                     <div class="this-item">
-                        <h3>Lorem ipsum dolor sit amet, an labores.</h3>
+                        <h3>We are committed to deliver to you the best value for your money because we deal with our clients as family.</h3>
                     </div>
                     <div class="this-item">
                         <p><a href="about.php">Read More</a></p>
@@ -72,7 +73,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <h2>Why Choose us</h2>
+                        <h2>OUR VALUE POINTS ARE</h2>
                         <div class="border-shape"></div>
                         <h3>We Provide Almost All Kinds of Real Estate Services</h3>
                     </div>
@@ -91,7 +92,7 @@
                                 </div>
                                 <div class="text">
                                     <h2>Quality Service</h2>
-                                    <p>Ad his diam eirmod persecuti. Eum health cube scriptorem eu, eu aperiri definiebas conclud aturque eam.</p>
+                                    <p>Using our rich experience in the Real Estate Industry to guide our clients to make the right choice of property that best suits their need and budget.</p><p>Presenting our clients with land and properties that are legitimate and free from land-grabbers trouble.</p>
                                 </div>
                             </div>
                         </div>
@@ -102,7 +103,8 @@
                                 </div>
                                 <div class="text">
                                     <h2>24/7 Support</h2>
-                                    <p>Ad his diam eirmod persecuti. Eum health cube scriptorem eu, eu aperiri definiebas conclud aturque eam.</p>
+                                    <p>Not disappearing once the transaction papers are signed - we are always with you through the journey.</p>
+                                    <p>Following the proper ethics of the business and not playing on our client's intelligence by re-selling already acquired properties</p>
                                 </div>
                             </div>
                         </div>
@@ -112,8 +114,9 @@
                                     <i class="fa fa-support" aria-hidden="true"></i>
                                 </div>
                                 <div class="text">
-                                    <h2>Quick Help</h2>
-                                    <p>Ad his diam eirmod persecuti. Eum health cube scriptorem eu, eu aperiri definiebas conclud aturque eam.</p>
+                                    <h2>Business Integrity</h2>
+                                    <p>Following the proper ethics of the business and not playing on our client's intelligence by re-selling already acquired properties.</p>
+                                    <p>Continuing to maintain our integrity in the business by prioritising customer satisfaction in all our dealings.</p>
                                 </div>
                             </div>
                         </div>
@@ -124,7 +127,7 @@
                                 </div>
                                 <div class="text">
                                     <h2>Best Price</h2>
-                                    <p>Ad his diam eirmod persecuti. Eum health cube scriptorem eu, eu aperiri definiebas conclud aturque eam.</p>
+                                    <p>Offering fair prices for our properties and also flexible payment plans that make it comfortable for you to acquire your dream property..</p>
                                 </div>
                             </div>
                         </div>
@@ -141,7 +144,7 @@
                     <div class="col-md-12">
                         <h2>Properties</h2>
                         <div class="border-shape"></div>
-                        <h3>Liber utroque vim an, ne his brute vivendo, est fabulas</h3>
+                        <h3>Landed property, remains the best investment of all time.</h3>
                     </div>
                 </div>
                 <div class="row">
@@ -247,7 +250,7 @@
                     <div class="col-md-12">
                         <h2>Our Services</h2>
                         <div class="border-shape"></div>
-                        <h3>lLorem ipsum dolor sit amet, an labores explicari qui</h3>
+                        <h3>Landed property, remains the best investment of all time.</h3>
                     </div>
                 </div>
                 <div class="row">
@@ -257,8 +260,8 @@
                             <div class="room-overlay">
                                 <div class="roomdetails-overlay">
                                     <div class="room-details">
-                                        <h2>Resturant</h2>
-                                        <a href="service-detail.php" class="readmore-button">Read More</a>
+                                        <h2>LAND AND PROPERTY SALE</h2>
+                                        <a href="service" class="readmore-button">Read More</a>
                                     </div>
                                 </div>
                             </div>
@@ -270,8 +273,8 @@
                             <div class="room-overlay">
                                 <div class="roomdetails-overlay">
                                     <div class="room-details">
-                                        <h2>Appartment</h2>
-                                        <a href="service-detail.php" class="readmore-button">Read More</a>
+                                        <h2>LAND AND PROPERTY LEASING</h2>
+                                        <a href="service" class="readmore-button">Read More</a>
                                     </div>
                                 </div>
                             </div>
@@ -283,7 +286,7 @@
                             <div class="room-overlay">
                                 <div class="roomdetails-overlay">
                                     <div class="room-details">
-                                        <h2>Extra Room</h2>
+                                        <h2>LAND AND PROPERTY PURCHASE</h2>
                                         <a href="service.php" class="readmore-button">Read More</a>
                                     </div>
                                 </div>
@@ -301,7 +304,7 @@
                     <div class="col-md-12">
                         <h2>Our Gallery</h2>
                         <div class="border-shape"></div>
-                        <h3>lLorem ipsum dolor sit amet, an labores explicari qui</h3>
+                        <h3></h3>
                     </div>
                 </div>
                 <div class="row">
@@ -387,69 +390,15 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <h2>labores explicari qui, eu nostrum</h2>
-                        <h3>Lorem ipsum dolor sit amet, an labores explicari qui, eu nostrum</h3>
+                        <h2>  Book an appointment with us </h2>
+                        <h3>Call us on +234phone number</h3>
                     </div>
                 </div>
             </div>
         </section>
         <!-- Featured Text End -->
         <!--  Work Start -->
-        <section class="work">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <h2>Recommended House</h2>
-                        <div class="border-shape"></div>
-                        <h3>Lorem ipsum dolor sit amet, an labores explicari qui, eu nostrum</h3>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                        <div class="single-room">
-                            <img src="images/cat6.jpg" alt="">
-                            <div class="room-overlay">
-                                <div class="roomdetails-overlay">
-                                    <div class="room-details">
-                                        <span class="room-price">$ 5500</span>
-                                        <h2>Smart Double Room</h2>
-                                        <a href="property-details.php" class="readmore-button">View Details</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                        <div class="single-room">
-                            <img src="images/cat7.jpg" alt="">
-                            <div class="room-overlay">
-                                <div class="roomdetails-overlay">
-                                    <div class="room-details">
-                                        <span class="room-price">$ 6500</span>
-                                        <h2>Golden Single Room</h2>
-                                        <a href="property-details.php" class="readmore-button">View Details</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                        <div class="single-room">
-                            <img src="images/cat8.jpg" alt="">
-                            <div class="room-overlay">
-                                <div class="roomdetails-overlay">
-                                    <div class="room-details">
-                                        <span class="room-price">$ 4500</span>
-                                        <h2>Silver Single Room</h2>
-                                        <a href="property-details.php" class="readmore-button">View Details</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+        
         <!-- Work End -->
         <!-- Testimonial Start -->
         <section class="testimonial-v1">
@@ -519,71 +468,43 @@
                         <div class="heading">
                             <h2>Latest News</h2>
                             <div class="border-shape"></div>
-                            <h3>Mei ut errem legimus periculis, eos liber epicurei</h3>
+                            <h3>Get the latest news update from us.</h3>
                         </div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-sm-6 col-md-4">
+                <?php
+                    $news=mysqli_query($mycon,'SELECT * FROM posts order by id desc limit 3');
+                    while($row=mysqli_fetch_array($news))
+                    {
+                        $content=strip_tags($row['content']);
+                        echo 
+                        '
+                        <div class="col-sm-6 col-md-4">
                         <div class="thumbnail">
                             <div class="photo">
-                                <img src="images/news1.jpg" alt="">
+                                <img src="admin/photos/'.$row['image'].'" style="height:232px" alt="">
                             </div>
                             <div class="caption">
                                 <div class="post-date">
                                     <div class="inner">
-                                        15 May, 2017
+                                        '.$row['fulldate'].'
                                     </div>
                                 </div>
-                                <h3>Heading of News</h3>
-                                <h4>Posted by: Rocks</h4>
-                                <p>
-                                    Mei ut errem legimus periculis, eos liber epicurei necessitatibus eu, facilisi postulant vel no. Ad mea commune disputando, cu vel choro exerci.
+                                <h3>'.$row['title'].'</h3>
+                                <h4>Posted by: '.$row['poster'].'</h4>
+                                <p class="text-justify">
+                                '.implode(' ', array_slice(explode(' ', $content), 0, 17)).'...
                                 </p>
-                                <p><a href="blog-single.php" class="btn btn-primary">Read More</a></p>
+                                <p><a href="blog-single.php?id='.$row['id'].'" class="btn btn-primary">Read More</a></p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-4">
-                        <div class="thumbnail">
-                            <div class="photo">
-                                <img src="images/news2.jpg" alt="">
-                            </div>
-                            <div class="caption">
-                                <div class="post-date">
-                                    <div class="inner">
-                                        10 Mar, 2017
-                                    </div>
-                                </div>
-                                <h3>Heading of News</h3>
-                                <h4>Posted by: Rason</h4>
-                                <p>
-                                    Mei ut errem legimus periculis, eos liber epicurei necessitatibus eu, facilisi postulant vel no. Ad mea commune disputando, cu vel choro exerci.
-                                </p>
-                                <p><a href="blog-single.php" class="btn btn-primary">Read More</a></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-4">
-                        <div class="thumbnail">
-                            <div class="photo">
-                                <img src="images/news3.jpg" alt="">
-                            </div>
-                            <div class="caption">
-                                <div class="post-date">
-                                    <div class="inner">
-                                        30 Apr, 2017
-                                    </div>
-                                </div>
-                                <h3>Heading of News</h3>
-                                <h4>Posted by: Jhon</h4>
-                                <p>
-                                    Mei ut errem legimus periculis, eos liber epicurei necessitatibus eu, facilisi postulant vel no. Ad mea commune disputando, cu vel choro exerci.
-                                </p>
-                                <p><a href="blog-single.php" class="btn btn-primary">Read More</a></p>
-                            </div>
-                        </div>
-                    </div>
+                        ';
+                    }
+                ?>
+                    
+                    
                 </div>
             </div>
         </div>

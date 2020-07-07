@@ -14,7 +14,7 @@
     <title> Uncle D real Estate Properties - Services</title>
 
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="img/favicon.png">
+    <link rel="icon" type="image/png" href="img/logo.png">
 
 
 
@@ -61,110 +61,47 @@
 		<div class="service">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-3">
-						<div class="single-room">
-							<img src="images/cat1.jpg" alt=""/>
-							<div class="room-overlay">
-								<div class="roomdetails-overlay">
-									<div class="room-details">
-										<h2>Resturant</h2>	
 										
-									</div>							
-								</div>
-							</div>
-						</div>	
-					</div>					
-					<div class="col-md-3">
+					<div class="col-md-4">
 						<div class="single-room">
 							<img src="images/cat2.jpg" alt=""/>
 							<div class="room-overlay">
 								<div class="roomdetails-overlay">
 									<div class="room-details">
-										<h2>Rental house</h2>	
+										<h2>LAND AND PROPERTY LEASING </h2>	
 										
 									</div>							
 								</div>
 							</div>
 						</div>	
 					</div>					
-					<div class="col-md-3">
+					<div class="col-md-4">
 						<div class="single-room">
 							<img src="images/cat3.jpg" alt=""/>
 							<div class="room-overlay">
 								<div class="roomdetails-overlay">
 									<div class="room-details">
-										<h2>Find An Agent</h2>	
+										<h2>LAND AND PROPERTY SALE</h2>	
 										
 									</div>							
 								</div>
 							</div>
 						</div>	
 					</div>					
-					<div class="col-md-3">
+					<div class="col-md-4">
 						<div class="single-room">
 							<img src="images/cat4.jpg" alt=""/>
 							<div class="room-overlay">
 								<div class="roomdetails-overlay">
 									<div class="room-details">
-										<h2>Corporate</h2>	
+										<h2>LAND AND PROPERTY PURCHASE </h2>	
 										
 									</div>							
 								</div>
 							</div>
 						</div>	
-					</div>				
-					<div class="col-md-3">
-						<div class="single-room">
-							<img src="images/cat5.jpg" alt=""/>
-							<div class="room-overlay">
-								<div class="roomdetails-overlay">
-									<div class="room-details">
-										<h2>Insurance</h2>	
-									
-									</div>							
-								</div>
-							</div>
-						</div>	
 					</div>						
-					<div class="col-md-3">
-						<div class="single-room">
-							<img src="images/cat6.jpg" alt=""/>
-							<div class="room-overlay">
-								<div class="roomdetails-overlay">
-									<div class="room-details">
-										<h2>Property Locations</h2>	
-											
-									</div>							
-								</div>
-							</div>
-						</div>	
-					</div>					
-					<div class="col-md-3">
-						<div class="single-room">
-							<img src="images/cat7.jpg" alt=""/>
-							<div class="room-overlay">
-								<div class="roomdetails-overlay">
-									<div class="room-details">
-										<h2>Property Management</h2>	
-									
-									</div>							
-								</div>
-							</div>
-						</div>	
-					</div>					
-					<div class="col-md-3">
-						<div class="single-room">
-							<img src="images/cat8.jpg" alt=""/>
-							<div class="room-overlay">
-								<div class="roomdetails-overlay">
-									<div class="room-details">
-										<h2>Parking</h2>	
-											
-									</div>							
-								</div>
-							</div>
-						</div>	
-					</div>								
+												
 				</div>
 			</div>
 		</div>

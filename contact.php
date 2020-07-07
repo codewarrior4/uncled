@@ -14,7 +14,7 @@
     <title> Uncle D real Estate Properties - Contact us</title>
 
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="img/favicon.png">
+    <link rel="icon" type="image/png" href="img/logo.png">
 
 
 

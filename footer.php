@@ -7,7 +7,7 @@
                         <div class="row">
                             <div class="col-md-12">
                                 <p>
-                                    Lorem ipsum dolor sit amet, an labores explicari qui, eu nostrum copiosae argumentum has. Latine propriae quo no. unum ridens expetenda id sit, at usu eius eligendi singulis. Sea ocurreret principes ne.
+                                We exist to help you acquire, sell or lease land and landed properties for private and commercial purposes, using our expertise and experience in the real estate industry.
                                 </p>
                             </div>
                         </div>
@@ -53,7 +53,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 copyright">
-                        Copyright &copy; <?php echo date('Y') ?>, Your Uncle D. All Rights Reserved.
+                        Copyright &copy; <?php echo date('Y') ?>, Your Uncle D Properties. All Rights Reserved.
                     </div>
                 </div>
             </div>

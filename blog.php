@@ -14,7 +14,7 @@
     <title> Uncle D real Estate Properties - Blog</title>
 
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="img/favicon.png">
+    <link rel="icon" type="image/png" href="img/log.png">
 
 
 

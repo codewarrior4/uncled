@@ -14,7 +14,7 @@
     <title> Uncle D real Estate Properties - About us</title>
 
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="img/favicon.png">
+    <link rel="icon" type="image/png" href="img/logo.png">
 
 
 
@@ -64,47 +64,24 @@
 					<div class="col-sm-6 col-md-8 col-lg-6">
 						<div class="item">
 							<h2>About Us</h2>
-							<h3>Our Experience</h3>
 							<p>
-                                 Mei ut errem legimus periculis, eos liber epicurei necessitatibus eu, facilisi postulant vel no. Ad mea commune disputando, cu vel choro exerci. Pri et oratio iisque atomorum, enim detracto mei ne, id eos soleat iudicabit. 
-							</p>
+                                 MWe exist to help you acquire, sell or lease land and landed properties for private and commercial purposes, using our expertise and experience in the real estate industry. <br> As a legend in the field, we pride ourselves in over 30 years of operation without any complications. <br> We are committed to deliver to you the best value for your money because we deal with our clients as family.
+							</p> <br>
+							<h2>Our slogan</h2>
+							<p>WE DEAL WITH YOU AS FAMILY <br>
+								WE STAND TALL AMONG EQUALS <br>
+								YOUR SATISFACTION IS OUR PRIORITY <br>
+								BUILDING INTEGRITY AND TRUST <br>
+								WE DELIVER REAL VALUE FOR YOUR MONEY</p> <br>
+							<h2> Our Value Points are</h2>
+							<p>&raquo; Using our rich experience in the Real Estate Industry to guide our clients to make the right choice of property that best suits their need and budget. Presenting our clients with land and properties that are legitimate and free from land-grabbers trouble.</p>
 							
-							<div class="bar-container">
-								<p>Properties Parking</p>
-								<div class="progress">
-									<div class="progress-bar progress-bar-success progress-bar-custom" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 0%">							
-									</div>
-								</div>
-								<div class="percentage-show">90%</div>
-							</div>
+							<p>&raquo; Offering fair prices for our properties and also flexible payment plans that make it comfortable for you to acquire your dream property.</p>
+							<p>&raquo; Ensuring that our clients receive all relevant documents pertaining to the properties acquired.</p>
+							<p>&raquo; Not disappearing once the transaction papers are signed - we are always with you through the journey.</p>
+							<p>&raquo; Following the proper ethics of the business and not playing on our client's intelligence by re-selling already acquired properties.</p>
+							<p>&raquo; Continuing to maintain our integrity in the business by prioritising customer satisfaction in all our dealings.</p>
 							
-							<div class="bar-container">
-								<p>Properties Rent</p>
-								<div class="progress">
-									<div class="progress-bar progress-bar-success progress-bar-custom" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 0%">
-									</div>
-								</div>
-								<div class="percentage-show">75%</div>
-							</div>
-							
-							<div class="bar-container">
-								<p>Properties Sell</p>
-								<div class="progress">
-									<div class="progress-bar progress-bar-success progress-bar-custom" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100" style="width: 0%">
-									</div>
-								</div>
-								<div class="percentage-show">55%</div>
-							</div>
-
-							<div class="bar-container">
-								<p>Properties Mangement</p>
-								<div class="progress">
-									<div class="progress-bar progress-bar-success progress-bar-custom" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 0%">
-									</div>
-								</div>
-								<div class="percentage-show">90%</div>
-							</div>
-
 						</div>
 					</div>
 					<div class="col-sm-6 col-md-4 col-lg-6">

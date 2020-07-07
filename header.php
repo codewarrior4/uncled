@@ -28,9 +28,9 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-3 col-sm-3 logo">
-                        <a href="index.php" style="font-size:24px" class="navbar-brand h2 text-success"> 
-                            UNCLE D PROPERTIES
-                            <!---<img src="img/logo.png" alt="">-->
+                        <a href="index.php" > 
+                            <!-- UNCLE D PROPERTIES -->
+                            <img src="images/logo.png" alt="">
                         </a>
                     </div>
                     <div class="col-md-9 col-sm-9 nav-wrapper">
