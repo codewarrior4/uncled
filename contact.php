@@ -6,7 +6,7 @@
     <!-- Meta Tags -->
     <meta name="viewport" content="width=device-width,initial-scale=1.0" />
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-    <meta name="description" content="Home light - Property and Real Estate HTML Template">
+    <meta name="description" content="Uncle D Properties - Property and Real Estate Management">
     <meta name="keywords" content="home, house, apartment, agents, business, properties, real estate, real estate agent, residence, single house, single property, villa, rent, land, sell">
 
 
@@ -94,7 +94,7 @@
                             </div>
                             <div class="form-group">
                                 <div class="col-sm-12">
-                                    <textarea class="form-control" cols="30" rows="10" placeholder="Message"></textarea>
+                                    <textarea class="form-control" style="resize: none;" cols="30" rows="10" placeholder="Message"></textarea>
                                 </div>
                             </div>
                             <div class="form-group">
@@ -112,7 +112,7 @@
 							<div class="text">
 								<h3>Address</h3>
 								<p>
-                                46, Totoro Road Abeokuta
+                                46, Totoro Road, via <br> Owu Baptist Church <br> Abeokuta, <br> Ogun State.
 								</p>
 							</div>
 						</div>
@@ -123,7 +123,7 @@
 							<div class="text">
 								<h3>Phone</h3>
 								<ul>
-									<li>+11 22 2222</li>
+									<li>+2348104724518</li>
 									<li>+22 222 8588</li>
 								</ul>
 							</div>
@@ -135,7 +135,7 @@
 							<div class="text">
 								<h3>Email</h3>
 								<p>
-									info@mail.com
+                                <a href="mailto:info@uncledproperties.com">info@uncledproperties.com</a>
 								</p>
 							</div>
 						</div>
@@ -153,7 +153,7 @@
 							<h2>Find Us on Map</h2>
 						</div>
 						<div class="google-map">
-							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387142.84040262736!2d-74.25819605476612!3d40.70583158628177!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY%2C+USA!5e0!3m2!1sen!2sbd!4v1485712851643" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1979.3722603644765!2d3.329597660226343!3d7.155508812416371!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103a4c0e50c569bf%3A0x9bfeaa3ca37b96db!2sOwu%20Baptist%20Church!5e0!3m2!1sen!2sng!4v1594281066930!5m2!1sen!2sng" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 						</div>
 					</div>
 				</div>
@@ -171,7 +171,7 @@
 				<div class="row">
 					<div class="col-md-12">
 						<h2>We are answer all your questions</h2>
-						<h3>Call me anytime at <span>{111-222-3333}</span> and get direct help from our advisor.</h3>
+						<h3>Call me anytime at <span> +2348104724518 </span> and get direct help from our advisor.</h3>
 					</div>
 				</div>
 			</div>

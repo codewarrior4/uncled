@@ -1,3 +1,10 @@
+<?php
+    include '../connect.php';
+
+    $query_news=mysqli_query($mycon,"SELECT * FROM posts");
+    $news=mysqli_num_rows($query_news);
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -48,7 +55,7 @@
                                             </div>
                                             <div class="card-wrap pull-right">
                                             <div class="card-header">
-                                                <h3>1,437</h3>
+                                                <h3><?php echo $news ?> </h3>
                                                 <h4>News Uploaded</h4>
                                             </div>
                                             </div>
@@ -94,7 +101,7 @@
                                     <div class="col-lg-3 col-md-6 col-sm-12">
                                         <div class="card card-sales-widget bg-success">
                                             <div class="card-icon shadow-primary bg-hibiscus">
-                                            <i class="fas fa-landmark"></i>
+                                            <i class="fa fa-address-book"></i>
                                             </div>
                                             <div class="card-wrap pull-right">
                                             <div class="card-header">

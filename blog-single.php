@@ -6,7 +6,7 @@
     <!-- Meta Tags -->
     <meta name="viewport" content="width=device-width,initial-scale=1.0" />
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-    <meta name="description" content="Home light - Property and Real Estate HTML Template">
+    <meta name="description" content="Uncle D Properties - Property and Real Estate Management">
     <meta name="keywords" content="home, house, apartment, agents, business, properties, real estate, real estate agent, residence, single house, single property, villa, rent, land, sell">
 
 
@@ -52,7 +52,7 @@
 			<div class="overlay"></div>
 			<div class="text text-page">
 				<div class="this-item">
-					<h2>Blog - Single</h2>
+					<h2>Blog - Detail</h2>
 				</div>
 			</div>			
 		</div>
@@ -69,36 +69,31 @@
 							<div class="row">
 								<div class="col-md-12">
 									
+										<?php  
+											include 'connect.php';
+											$id=$_GET['id'];
+											$query=mysqli_query($mycon,"SELECT * FROM posts where id='$id'");
+											$row=mysqli_fetch_array($query);
+											
 
+										?>
 									<!-- Post Item Start -->
 									<div class="post-item">
 										<div class="image-holder">
-											<img class="img-responsive" src="images/news1.jpg" alt="">
-											<div class="date">
-												<div class="day">24</div>
-												<div class="month">MAY</div>
-											</div>
+											<img class="img-responsive" src="admin/photos/<?php echo $row['image'] ?>" alt="">
+											
 										</div>
+										
 										<div class="text">
-											<h3>Main Blog Post Heading</h3>
+											<h3><?php echo $row['title'] ?></h3>
 											<ul class="status">
-												<li><i class="fa fa-user"></i>Author: <a href="">Ricky Ponting</a></li>
+												<li><i class="fa fa-user"></i>Author: <a href=""><?php echo $row['poster'] ?></a></li>
 												<li>-</li>
-												<li><i class="fa fa-comments"></i><a href="">14 Comments</a></li>
-												<li>-</li>
-												<li><i class="fa fa-tag"></i>Cat: <a href="#">Doctor</a>, <a href="#">Medical</a></li>
+												<li><i class="fa fa-calendar"></i><a href=""><?php echo $row['fulldate'] ?></a></li>
+												
 											</ul>
 											<p>
-												Lorem ipsum dolor sit amet, pertinax signiferumque pri ea. Quo ex solum petentium urbanitas, quo id aliquando philosophia. Solet legendos sea ne. Vel elit cibo an, cu vis animal saperet. Munere labores minimum sea te, movet inimicus in eum.
-											</p>
-											<p>
-												Ne vim animal signiferumque, qui cu duis temporibus. An ludus eirmod saperet est, duo audire facilis ullamcorper ne, pri at meis everti expetendis. Virtute nominavi his eu. Eam cu imperdiet liberavisse deterruisset, eam error putant ponderum ne. Falli sadipscing ad pri. Nemore deseruisse in quo, sea errem nonumy ei. Te mea munere antiopam qualisque.
-											</p>
-											<p>
-												Duis discere mea cu, cu detraxit convenire vel. Quo an integre probatus, nec probo mundi euismod ei. Dico facer dissentias sea eu, cu ornatus posidonium qui. Ne est eros veniam iisque, zril lucilius sed ut, ei sit harum voluptatibus. Scripta ornatus commune id vim, id vis idque labores voluptatum.
-											</p>
-											<p>
-												In etiam velit duo, aliquid definiebas vituperata ea eum, ad aliquando dissentias vel. Delectus intellegebat ea pri, has ludus consequuntur an, deleniti constituam ad vel. At officiis repudiandae theophrastus eos, duo dolore latine dissentias at. Sea enim assueverit ex. Mazim phaedrum mea ut, prima porro corpora vix ea, sed ea ludus omittam. 
+											<?php echo $row['content'] ?>
 											</p>
 										</div>
 									</div>
@@ -110,101 +105,33 @@
 						</div>
 						<!-- Blog Classic End -->
 						
-						<!-- Comment Section Start -->
-						<div class="comments">
-							<div class="gap-small"></div>
-							<h3>Leave a Comment</h3>
-							<div class="respond">
-								<form action="#" class="form-horizontal cform-1" method="post">
-									<div class="form-group">
-		                                <div class="col-sm-12">
-		                                    <textarea name="" class="form-control" cols="30" rows="10" placeholder="Your Comment"></textarea>
-		                                </div>
-		                            </div>
-									<div class="form-group">
-		                                <div class="col-sm-12">
-		                                    <input type="text" class="form-control" placeholder="Name" name="">
-		                                </div>
-		                            </div>
-									<div class="form-group">
-		                                <div class="col-sm-12">
-		                                    <input type="email" class="form-control" placeholder="Email" name="">
-		                                </div>
-		                            </div>		                           
-		                            <div class="form-group">
-		                                <div class="col-sm-12">
-		                                    <input type="text" class="form-control" placeholder="Website" name="">
-		                                </div>
-		                            </div>		                            
-		                            <div class="form-group">
-					                    <div class="col-sm-12">
-					                        <input type="submit" value="Submit Comment" class="btn btn-success">
-					                    </div>
-					                </div>
-								</form>
-							</div>
-						</div>
-						<!-- Comment Section end -->
 
 
 					</div>
-					<div class="col-md-4">
+					<div class="col-md-offset-1 col-md-3">
 						
 						<!-- Sidebar Container Start -->
 						<div class="sidebar">
-							<div class="widget widget-search">
-								<h4>Search</h4>
-								<form action="#">
-									<input type="text" name="" id="" placeholder="Search">
-									<button type="submit"><i class="fa fa-search"></i></button>
-								</form>
-							</div>
-							<div class="widget">
-								<h4>Categories</h4>
-								<ul>
-									<li><a href="#">Properties</a></li>
-									<li><a href="#">Rentals</a></li>
-									<li><a href="#">Properties Sell</a></li>
-									<li><a href="#">Agent</a></li>
-									<li><a href="#">Careers</a></li>
-									<li><a href="#">Properties Mangement</a></li>
-								</ul>
-							</div>
-							<div class="widget">
-								<h4>Archives</h4>
-								<ul>
-									<li><a href="#">April 2017</a></li>
-									<li><a href="#">March 2017</a></li>
-									<li><a href="#">February 2017</a></li>
-									<li><a href="#">January 2017</a></li>
-									<li><a href="#">December 2016</a></li>
-								</ul>
-							</div>
+							
 							<div class="widget">
 								<h4>Recent Posts</h4>
 								<ul>
-									<li><a href="#">Main Blog Post Heading</a></li>
-									<li><a href="#">Main Blog Post Heading</a></li>
-									<li><a href="#">Main Blog Post Heading</a></li>
-									<li><a href="#">Main Blog Post Heading</a></li>
+								<?php  
+									
+									$query=mysqli_query($mycon,"SELECT * FROM posts order by rand() limit 20");
+									while($row=mysqli_fetch_array($query))
+									{
+										echo 
+										'
+										<li><a href="blog-single.php?id='.$row['id'].'">'.$row['title'].'</a></li>
+										';
+									}
+									
+
+								?>
 								</ul>
 							</div>
-							<div class="widget">
-								<h4>Tags</h4>
-								<ul class="tag-cloud"> 
-									<li><a href="#">Properties</a></li>
-									<li><a href="#">Rentals</a></li>
-									<li><a href="#">Sell</a></li>
-									<li><a href="#">Agent</a></li>
-									<li><a href="#">Mangement</a></li>
-									<li><a href="#">Parking</a></li>
-									<li><a href="#">Rent</a></li>
-									<li><a href="#">career</a></li>
-									<li><a href="#">House</a></li>
-									<li><a href="#">Building</a></li>
-									<li><a href="#">Service</a></li>
-								</ul>
-							</div>
+							
 						</div>
 						<!-- Sidebar Container End -->
 					

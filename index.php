@@ -7,7 +7,7 @@
     <!-- Meta Tags -->
     <meta name="viewport" content="width=device-width,initial-scale=1.0" />
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-    <meta name="description" content="Home light - Property and Real Estate HTML Template">
+    <meta name="description" content="Uncle D Properties - Property and Real Estate Management">
     <meta name="keywords" content="home, house, apartment, agents, business, properties, real estate, real estate agent, residence, single house, single property, villa, rent, land, sell">
 
 
@@ -391,7 +391,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <h2>  Book an appointment with us </h2>
-                        <h3>Call us on +234phone number</h3>
+                        <h3>Call us on +2348104724518</h3>
                     </div>
                 </div>
             </div>

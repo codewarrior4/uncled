@@ -3,10 +3,10 @@
                 <div class="row">
                     <div class="col-md-6 top-contact">
                         <div class="list">
-                            <i class="fa fa-envelope"></i> <a href="mailto:info@yourdomain.com">info@uncled.com</a>
+                            <i class="fa fa-envelope"></i> <a href="mailto:info@uncledproperties.com">info@uncledproperties.com</a>
                         </div>
                         <div class="list">
-                            <i class="fa fa-phone"></i> 1122 0011 0058
+                            <i class="fa fa-phone"></i> +2348104724518
                         </div>
                     </div>
                     <div class="col-md-6 top-social">
@@ -30,7 +30,7 @@
                     <div class="col-md-3 col-sm-3 logo">
                         <a href="index.php" > 
                             <!-- UNCLE D PROPERTIES -->
-                            <img src="images/logo.png" alt="">
+                            <img src="images/logo.png" width="60" height="60" alt="">
                         </a>
                     </div>
                     <div class="col-md-9 col-sm-9 nav-wrapper">
@@ -39,7 +39,12 @@
                             <ul class="sf-menu" id="menu">
                                 <li ><a href="index.php">Home</a></li>
                                 
-                                <li><a href="property.php">Property </a>  </li>
+                                <li><a href="#">Properties <i class="fa fa-angle-down"></i></a>
+                                    <ul>
+                                        <li><a href="landed.php">Landed Properties</a></li>
+                                        <li><a href="land.php">Land Property</a></li>
+                                    </ul>
+                                </li>
                                 <li><a href="service.php">Service </a>  </li>
                                 <li><a href="blog.php">Blog </a>  </li>
                                 <li><a href="about.php">About Us </a>  </li>

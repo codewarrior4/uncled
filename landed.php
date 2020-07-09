@@ -11,7 +11,7 @@
 
 
     <!-- Title -->
-    <title> Uncle D real Estate Properties - Property</title>
+    <title> Uncle D real Estate Properties - Landed Property</title>
 
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="img/logo.png">

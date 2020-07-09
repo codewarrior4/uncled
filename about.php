@@ -6,7 +6,7 @@
     <!-- Meta Tags -->
     <meta name="viewport" content="width=device-width,initial-scale=1.0" />
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-    <meta name="description" content="Home light - Property and Real Estate HTML Template">
+    <meta name="description" content=" Uncle D Properties - Property and Real Estate Management">
     <meta name="keywords" content="home, house, apartment, agents, business, properties, real estate, real estate agent, residence, single house, single property, villa, rent, land, sell">
 
 
@@ -63,16 +63,16 @@
 				<div class="row">
 					<div class="col-sm-6 col-md-8 col-lg-6">
 						<div class="item">
-							<h2>About Us</h2>
+							<h2> Who we are</h2>
 							<p>
-                                 MWe exist to help you acquire, sell or lease land and landed properties for private and commercial purposes, using our expertise and experience in the real estate industry. <br> As a legend in the field, we pride ourselves in over 30 years of operation without any complications. <br> We are committed to deliver to you the best value for your money because we deal with our clients as family.
+                                 We exist to help you acquire, sell or lease land and landed properties for private and commercial purposes, using our expertise and experience in the real estate industry. <br> As a legend in the field, we pride ourselves in over 30 years of operation without any complications. <br> We are committed to deliver to you the best value for your money because we deal with our clients as family.
 							</p> <br>
-							<h2>Our slogan</h2>
+							<!-- <h2>Our slogan</h2>
 							<p>WE DEAL WITH YOU AS FAMILY <br>
 								WE STAND TALL AMONG EQUALS <br>
 								YOUR SATISFACTION IS OUR PRIORITY <br>
 								BUILDING INTEGRITY AND TRUST <br>
-								WE DELIVER REAL VALUE FOR YOUR MONEY</p> <br>
+								WE DELIVER REAL VALUE FOR YOUR MONEY</p> <br> -->
 							<h2> Our Value Points are</h2>
 							<p>&raquo; Using our rich experience in the Real Estate Industry to guide our clients to make the right choice of property that best suits their need and budget. Presenting our clients with land and properties that are legitimate and free from land-grabbers trouble.</p>
 							

@@ -31,17 +31,17 @@
                         <h3>Contact Us</h3>
                         <div class="contact-item">
                             <div class="icon"><i class="fa fa-map-marker"></i></div>
-                            <div class="text">46, Totoro Road Abeokuta.</div>
+                            <div class="text">46, Totoro Road, via <br> Owu Baptist Church <br> Abeokuta, <br> Ogun State.</div>
                         </div>
                         <div class="contact-item">
                             <div class="icon"><i class="fa fa-phone"></i></div>
-                            <div class="text">08084747637</div>
+                            <div class="text">+2348104724518</div>
                         </div>
                         <div class="contact-item">
                         
                         <div class="contact-item">
                             <div class="icon"><i class="fa fa-envelope-o"></i></div>
-                            <div class="text">info@uncled.com</div>
+                            <div class="text"><a href="mailto:info@uncledproperties.com">info@uncledproperties.com</a></div>
                         </div>
                     </div>
                 </div>

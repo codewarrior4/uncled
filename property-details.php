@@ -6,7 +6,7 @@
     <!-- Meta Tags -->
     <meta name="viewport" content="width=device-width,initial-scale=1.0" />
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-    <meta name="description" content="Home light - Property and Real Estate HTML Template">
+    <meta name="description" content="Uncle D Properties - Property and Real Estate Management">
     <meta name="keywords" content="home, house, apartment, agents, business, properties, real estate, real estate agent, residence, single house, single property, villa, rent, land, sell">
 
 
@@ -112,41 +112,23 @@
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-12 col-xs-12">
-                        <div class="room-facilities">
-                            <h2>Room Facilities</h2>
-                            <div class="single-facilities">
-                                <ul>
-                                    <li><i class="fa fa-key"></i>Safe box</li>
-                                    <li><i class="fa fa-cutlery"></i> Restaurant</li>
-                                    <li><i class="fa fa-glass"></i>Bathtub</li>
-                                    <li><i class="fa fa-tint"></i>Laundry Service</li>
-                                    <li><i class="fa fa-wifi"></i> High Speed wifi</li>
-
-                                </ul>
-                            </div>
-                            <div class="single-facilities">
-                                <ul>
-                                    <li><i class="fa fa-car"></i>Car Parking</li>
-                                    <li><i class="fa fa-desktop"></i>Plasma TV</li>
-                                    <li><i class="fa fa-hotel"></i>King size bed</li>
-                                    <li><i class="fa fa-coffee"></i>Breakfast</li>
-                                    <li><i class="fa fa-spoon"></i>Pet allowed</li>
-
-                                </ul>
-                            </div>
-                        </div>
+                     
                         <div class="room-facilities">
                             <h2>Need Help?</h2>
                             <div class="support-widget">
-                                <h3>111-222-3333</h3>
-                                <p>Mei ut errem legimus periculis, eos liber epicurei necessitatibus eu, facilisi postulant vel no.  </p>
+                            <div class="list">
+                            <i class="fa fa-envelope"></i> <a href="mailto:info@uncledproperties.com">info@uncledproperties.com</a>
+                        </div>
+                        <div class="list">
+                            <i class="fa fa-phone"></i> +2348104724518
+                        </div>
                             </div>
                         </div>
                         <div class="room-facilities">
                             <h2>Why Us?</h2>
                             <div class="support-widget">
                                 <h3>Our Special Service</h3>
-                                <p> Mei ut errem legimus periculis, eos liber epicurei necessitatibus eu, facilisi postulant vel no. </p>
+                                <p> We are committed to deliver to you the best value for your money because we deal with our clients as family. </p>
                             </div>
                         </div>
                     </div>

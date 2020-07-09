@@ -6,7 +6,7 @@
     <!-- Meta Tags -->
     <meta name="viewport" content="width=device-width,initial-scale=1.0" />
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-    <meta name="description" content="Home light - Property and Real Estate HTML Template">
+    <meta name="description" content="Uncle D Properties - Property and Real Estate Management">
     <meta name="keywords" content="home, house, apartment, agents, business, properties, real estate, real estate agent, residence, single house, single property, villa, rent, land, sell">
 
 
@@ -61,159 +61,98 @@
         <section class="blog">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-8">
+                    <div class=" col-md-offset-2 col-md-8">
 
                         <!-- Blog Classic Start -->
                         <div class="blog-grid">
                             <div class="row">
                                 <div class="col-md-12">
 
+                                        <?php   
+                                            include 'connect.php';
+                                            if (isset($_GET['pageno']))
+                                            {
+                                            $pageno = $_GET['pageno'];
+                                            }
+                                            else 
+                                            {
+                                            $pageno = 1;
+                                            }
 
+                                            // sets number of page here 
+                                            $no_of_records_per_page = 10;
+                                            $offset = ($pageno-1) * $no_of_records_per_page;
+                                            $total_pages_sql = "SELECT COUNT(*) FROM posts";
+                                            $result = mysqli_query($mycon,$total_pages_sql);
+                                            $total_rows = mysqli_fetch_array($result)[0];
+                                            $total_pages = ceil($total_rows / $no_of_records_per_page);
+
+											
+											$query=mysqli_query($mycon,"SELECT * FROM posts order by id desc limit $offset, $no_of_records_per_page ");
+											while($row=mysqli_fetch_array($query))
+											{
+                                                $content=strip_tags($row['content']);
+
+
+                                                echo 
+                                                '
+                                                  <div class="post-item">
+                                                        <div class="image-holder">
+                                                            <img class="img-responsive" src="admin/photos/'.$row['image'].'" alt="">
+                                                            
+                                                        </div>
+                                                        <div class="text">
+                                                            <h3><a href="blog-single.php?id='.$row['id'].'">'.$row['title'].'</a></h3>
+                                                            <ul class="status">
+                                                                <li><i class="fa fa-user"></i>Author: <a href="#"> '.$row['poster'].'</a></li>
+                                                                <li>-</li>
+                                                                <li><i class="fa fa-calendar"></i> '.$row['fulldate'].'</li>
+                                                            </ul>
+                                                            <p> '.implode(' ', array_slice(explode(' ', $content), 0, 40)).'...</p>
+                                                            <p class="button">
+                                                                <a href="blog-single.php?id='.$row['id'].'">Read More</a>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+
+
+                                                ';
+                                            }
+
+										?>
                                     <!-- Post Item Start -->
-                                    <div class="post-item">
-                                        <div class="image-holder">
-                                            <img class="img-responsive" src="images/news1.jpg" alt="">
-                                            <div class="date">
-                                                <div class="day">24</div>
-                                                <div class="month">MAY</div>
-                                            </div>
-                                        </div>
-                                        <div class="text">
-                                            <h3><a href="blog-single.php">Main Blog Post Heading</a></h3>
-                                            <ul class="status">
-                                                <li><i class="fa fa-user"></i>Author: <a href="#">Robert Smith</a></li>
-                                                <li>-</li>
-                                                <li><i class="fa fa-comments"></i><a href="#">2 Comments</a></li>
-                                                <li>-</li>
-                                                <li><i class="fa fa-tag"></i>Cat: <a href="#">Sell</a>, <a href="#">Properties</a></li>
-                                            </ul>
-                                            <p>
-                                                Minim scribentur cu mel, ut mea hinc solum sententiae, at mazim vitae intellegebat vis. Delenit dolores et ius. Everti accusam convenire ea quo, cibo nonumes no sea, his te amet ornatus.
-                                            </p>
-                                            <p class="button">
-                                                <a href="blog-single.php">Read More</a>
-                                            </p>
-                                        </div>
-                                    </div>
+                                   
                                     <!-- Post Item End -->
 
-                                    <!-- Post Item Start -->
-                                    <div class="post-item">
-                                        <div class="image-holder">
-                                            <div class="gallery-carousel">
-                                                <div class="item">
-                                                    <img src="images/news2.jpg" alt="">
-                                                </div>
-                                                <div class="item">
-                                                    <img src="images/news3.jpg" alt="">
-                                                </div>
-                                            </div>
-                                            <div class="date">
-                                                <div class="day">24</div>
-                                                <div class="month">MAY</div>
-                                            </div>
-                                        </div>
-                                        <div class="text">
-                                            <h3><a href="blog-single.php">Main Blog Post Heading</a></h3>
-                                            <ul class="status">
-                                                <li><i class="fa fa-user"></i>Author: <a href="#">Robert Smith</a></li>
-                                                <li>-</li>
-                                                <li><i class="fa fa-comments"></i><a href="#">14 Comments</a></li>
-                                                <li>-</li>
-                                                <li><i class="fa fa-tag"></i>Cat: <a href="#">Properties Rents</a></li>
-                                            </ul>
-                                            <p>
-                                                Minim scribentur cu mel, ut mea hinc solum sententiae, at mazim vitae intellegebat vis. Delenit dolores et ius. Everti accusam convenire ea quo, cibo nonumes no sea, his te amet ornatus.
-                                            </p>
-                                            <p class="button">
-                                                <a href="blog-single.php">Read More</a>
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <!-- Post Item End -->
+                                  
 
 
                                 </div>
 
-                                <div class="col-md-12">
+                              <center>
+                              <div class="col-md-12">
                                     <div class="pagination">
-                                        <ul>
-                                            <li><a href="" class="active">1</a></li>
-                                            <li><a href="">2</a></li>
-                                            <li><a href="">3</a></li>
-                                            <li><a href=""><i class="fa fa-long-arrow-right"></i></a></li>
+                                    <ul class="pagination justify-content-center">
+                                        <li class="page-item " style="margin-right: 5px;;"><a class="page-link"  href="?pageno=1" title="First">1</a></li>
+                                        <li class="page-item <?php if($pageno >= $total_pages){ echo 'disabled'; }?>">
+                                        <a title="Next" class="page-link"href="<?php if($pageno >= $total_pages){ echo '#'; } else { echo "?pageno=".($pageno + 1); } ?>">&raquo;</a>
+                                        </li>
+                                        <li class="page-item <?php if($pageno <= 1){ echo 'disabled'; } ?>">
+                                        <a title="Previous" class="page-link" href="<?php if($pageno <= 1){ echo '#'; } else { echo "?pageno=".($pageno - 1); } ?>">&laquo;</a>
+                                        </li>
+                                        <li class="page-item">
+                                        <a class="page-link" title="End" href="?pageno=<?php echo $total_pages; ?>">End</a>
                                         </ul>
                                     </div>
                                 </div>
+                              </center>
 
                             </div>
                         </div>
                         <!-- Blog Classic End -->
 
                     </div>
-                    <div class="col-md-4">
-
-                        <!-- Sidebar Container Start -->
-                        <div class="sidebar">
-                            <div class="widget widget-search">
-                                <h4>Search</h4>
-                                <form action="#">
-                                    <input type="text" name="" id="" placeholder="Search">
-                                    <button type="submit"><i class="fa fa-search"></i></button>
-                                </form>
-                            </div>
-                            <div class="widget">
-                                <h4>Categories</h4>
-                                <ul>
-                                    <li><a href="#">Properties</a></li>
-                                    <li><a href="#">Properties Sell</a></li>
-                                    <li><a href="#">Rentals</a></li>
-                                    <li><a href="#">Agent</a></li>
-                                    <li><a href="#">Careers</a></li>
-                                </ul>
-                            </div>
-                            <div class="widget">
-                                <h4>Archives</h4>
-                                <ul>
-                                    <li><a href="#">May 2017</a></li>
-                                    <li><a href="#">June 2017</a></li>
-                                    <li><a href="#">February 2017</a></li>
-                                    <li><a href="#">April 2016</a></li>
-                                    <li><a href="#">December 2015</a></li>
-                                </ul>
-                            </div>
-                            <div class="widget">
-                                <h4>Recent Posts</h4>
-                                <ul>
-                                    <li><a href="#">Main Blog Post 1</a></li>
-                                    <li><a href="#">Main Blog Post 2</a></li>
-                                    <li><a href="#">Main Blog Post 3</a></li>
-                                    <li><a href="#">Main Blog Post 4</a></li>
-                                    <li><a href="#">Main Blog Post 5</a></li>
-                                </ul>
-                            </div>
-                            <div class="widget">
-                                <h4>Tags</h4>
-                                <ul class="tag-cloud">
-                                    <li><a href="#">Rentals</a></li>
-                                    <li><a href="#">Properties</a></li>
-
-                                    <li><a href="#">Sell</a></li>
-                                    <li><a href="#">career</a></li>
-                                    <li><a href="#">House</a></li>
-                                    <li><a href="#">Building</a></li>
-                                    <li><a href="#">Service</a></li>
-                                    <li><a href="#">Agent</a></li>
-                                    <li><a href="#">Mangement</a></li>
-                                    <li><a href="#">Parking</a></li>
-                                    <li><a href="#">Rent</a></li>
-
-                                </ul>
-                            </div>
-                        </div>
-                        <!-- Sidebar Container End -->
-
-                    </div>
+                   
 
 
 
