@@ -3,6 +3,15 @@
 
     $query_news=mysqli_query($mycon,"SELECT * FROM posts");
     $news=mysqli_num_rows($query_news);
+
+    $query_landed=mysqli_query($mycon,"SELECT * FROM property where type='Landed'");
+    $landed=mysqli_num_rows($query_landed);
+
+    $query_land=mysqli_query($mycon,"SELECT * FROM property where type='Land'");
+    $land=mysqli_num_rows($query_land);
+
+    $query_contact=mysqli_query($mycon,"SELECT * FROM contact ");
+    $contact=mysqli_num_rows($query_contact);
 ?>
 
 <!DOCTYPE html>
@@ -72,8 +81,8 @@
                                             </div>
                                             <div class="card-wrap pull-right">
                                             <div class="card-header">
-                                                <h3>2,021</h3>
-                                                <h4> House Properties</h4>
+                                                <h3><?php echo $landed ?></h3>
+                                                <h4> Landed Properties</h4>
                                             </div>
                                             </div>
                                             <div class="card-chart">
@@ -89,7 +98,7 @@
                                             </div>
                                             <div class="card-wrap pull-right">
                                             <div class="card-header">
-                                                <h3>5,124</h3>
+                                                <h3><?php echo $land ?></h3>
                                                 <h4> Land Properties</h4>
                                             </div>
                                             </div>
@@ -105,7 +114,7 @@
                                             </div>
                                             <div class="card-wrap pull-right">
                                             <div class="card-header">
-                                                <h3>5</h3>
+                                                <h3><?php echo $contact ?></h3>
                                                 <h4>  Contact us message</h4>
                                             </div>
                                             </div>

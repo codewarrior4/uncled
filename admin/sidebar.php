@@ -41,7 +41,7 @@
               <a href="#" class="nav-link has-dropdown"><i class="fas fa-home"></i><span>Properties</span></a>
               <ul class="dropdown-menu">
                 <li><a class="nav-link" href="property.php">Add Property</a></li>
-                <li><a class="nav-link" href="house.php">House Properties</a></li>
+                <li><a class="nav-link" href="landed.php">Landed Properties</a></li>
                 <li><a class="nav-link" href="land.php">Land Properties</a></li>
               </ul>
             </li>

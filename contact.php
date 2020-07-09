@@ -71,37 +71,62 @@
 				</div>
 				<div class="row">
 					<div class="col-md-8">
-						<form action="#" class="form-horizontal cform-1" method="post">
+						<form action="" class="form-horizontal cform-1" method="post">
 							<div class="form-group">
                                 <div class="col-sm-12">
-                                    <input type="text" class="form-control" placeholder="Name">
+                                    <input type="text" class="form-control" name="name" placeholder="Name">
                                 </div>
                             </div>
 							<div class="form-group">
                                 <div class="col-sm-12">
-                                    <input type="email" class="form-control" placeholder="Email Address">
+                                    <input type="email" class="form-control" name="email" placeholder="Email Address">
                                 </div>
                             </div>
                             <div class="form-group">
                                 <div class="col-sm-12">
-                                    <input type="text" class="form-control" placeholder="Phone Number">
+                                    <input type="text" class="form-control" name="phone" placeholder="Phone Number">
                                 </div>
                             </div>
                             <div class="form-group">
                                 <div class="col-sm-12">
-                                    <input type="text" class="form-control" placeholder="Subject">
+                                    <input type="text" class="form-control" name="subject" placeholder="Subject">
                                 </div>
                             </div>
                             <div class="form-group">
                                 <div class="col-sm-12">
-                                    <textarea class="form-control" style="resize: none;" cols="30" rows="10" placeholder="Message"></textarea>
+                                    <textarea class="form-control" style="resize: none;" name="message" cols="30" rows="10" placeholder="Message"></textarea>
                                 </div>
                             </div>
                             <div class="form-group">
 			                    <div class="col-sm-12">
-			                        <input type="submit" value="Send Message" class="btn btn-success">
+			                        <input type="submit" value="Send Message" name="msg" class="btn btn-success">
 			                    </div>
-			                </div>
+                            </div>
+                            <?php 
+
+                                include 'connect.php';
+                                if(isset($_POST['msg']))
+                                {
+                                    $name=$_POST['name'];
+                                    $email=$_POST['email'];
+                                    $phone=$_POST['phone'];
+                                    $subject=$_POST['subject'];
+                                    $message=$_POST['message'];
+
+                                    $query=mysqli_query($mycon,"INSERT INTO contact values('','$name','$email','$phone','$subject','$message',now())");
+                                    if($query)
+                                    {
+                                        echo '<script>swal("Sent","We have recieved your message","Success")</script>';
+                                        echo '<script>window.location("contact.php")</script>';
+                                    }
+                                    else
+
+                                    {
+                                        echo  mysqli_error($query);
+                                    }
+                                }
+
+                            ?>
 						</form>
 					</div>
 					<div class="col-md-4">
@@ -221,6 +246,7 @@
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/owl.animate.js"></script>
     <script src="js/jquery.bxslider.min.js"></script>
+    <script src="js/swal.js"></script>
     <script src="js/jquery.mixitup.min.js"></script>
     <script src="js/jquery.magnific-popup.min.js"></script>
     <script src="js/waypoints.min.js"></script>
